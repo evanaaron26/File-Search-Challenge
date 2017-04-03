@@ -35,10 +35,37 @@ table = gets.chomp
 
     if table == '1'
         puts investors
+        puts 'please choose an investor ID'
+        investor_id = gets.chomp
+        if investor_id == '8675309'
+            puts 'you have access to the following document:'
+            puts 'meeting_notes_jan.pdf'
+        elsif investor_id == '42'
+            puts 'you have access to the following document:'
+            puts 'actual_notes.txt'
+        elsif investor_id == '60221023'
+            puts 'you have access to the following document:'
+            puts 'super_secret_meeting_notes_jan.pdf'
+            puts 'meeting_notes_jan.pdf'
+        elsif investor_id = '161803' 
+            puts 'you do not have access to any document'
+    end 
+
     elsif table == '2'
         puts accounts 
+        puts 'please choose an account ID'
+        account_id = gets.chomp
+
+
+
+
+
     elsif table == '3'
         puts documents
+        puts 'please choose an document ID'
+        document_id = gets.chomp
     end
+
+
 
 
