@@ -55,6 +55,12 @@ table = gets.chomp
         puts accounts 
         puts 'please choose an account ID'
         account_id = gets.chomp
+        if account_id == '2525'
+            puts 'you have access to the following document:'
+            puts 'meeting_notes_jan.pdf'
+            puts 'The investor is:'
+            puts 'Zaphod, Beeblebrox'
+        end 
 
 
 
